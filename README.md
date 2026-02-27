@@ -11,7 +11,7 @@
 
 | Metric | Score |
 |--------|-------|
-| **IoU** | **0.6217** |
+| **IoU** | **0.5907** |
 | **Recall** | **0.8080** |
 
 > Finds **8 out of 10 flooded areas** in the official benchmark test set.
@@ -22,7 +22,7 @@
 |--------|-----|-------|
 | Prithvi-CAFE (WACV 2026) | 0.8341 | NASA/IBM 100M-param foundation model |
 | Baseline U-Net (literature) | 0.7057 | Standard architecture |
-| **This model** | **0.6217** | Single T4 GPU, ~2 hours training |
+| **This model** | **0.5907** | Single T4 GPU, ~2 hours training |
 | Simple threshold | ~0.35 | No deep learning |
 
 ---

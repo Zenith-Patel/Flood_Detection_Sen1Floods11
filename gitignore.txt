@@ -1,0 +1,23 @@
+# Model weights — too large for GitHub (use Google Drive or HuggingFace)
+*.pth
+*.pt
+*.ckpt
+
+# Data — downloaded from GCS at runtime
+sen1floods11/
+*.tif
+*.csv
+
+# Output files
+*.gif
+*.png
+flood_map_output.tif
+verification_*.tif
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Colab
+.config/
